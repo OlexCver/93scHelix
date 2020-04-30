@@ -16,10 +16,17 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{1FC9CA98-8EED-4D37-9218-F3DD8C152CE1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93sc.Feature.PageContent", "src\Feature\PageContent\code\93sc.Feature.PageContent\93sc.Feature.PageContent.csproj", "{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87} = {D3DF57BA-025F-41AC-949C-9E4D5E441C87}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{BFC8B8A9-B30E-4D35-896B-5B5586805C75}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93sc.Project.Website", "src\Project\website\code\93sc.Project.Website\93sc.Project.Website.csproj", "{F51DEC72-6842-4F61-8F33-4771FFCC4157}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87} = {D3DF57BA-025F-41AC-949C-9E4D5E441C87}
+		{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC} = {0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
