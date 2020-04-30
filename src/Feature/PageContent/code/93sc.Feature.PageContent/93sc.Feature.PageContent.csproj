@@ -327,12 +327,12 @@
     <Content Include="Views\PageContent\BodyCopy.cshtml" />
     <Content Include="Views\PageContent\HeroImage.cshtml" />
     <None Include="Web.config" />
-    <Content Include="Web.Debug.config">
+    <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
-    </Content>
-    <Content Include="Web.Release.config">
+    </None>
+    <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
-    </Content>
+    </None>
     <None Include="Views\Web.config" />
   </ItemGroup>
   <ItemGroup>
