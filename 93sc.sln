@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Projects", "1. Projects", "{45C9D597-B3DE-4BDE-9155-48577CAD3A29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Feature", "2. Feature", "{E799D4DC-BF88-433F-A145-123FED074FF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Foundation", "3. Foundation", "{D257C9EE-284B-4412-8009-F5D3E42114F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{6F338159-7DBA-4A6A-A132-6EFAF7A87A32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93sc.Foundation.Configuraton", "src\Foundation\Configuration\code\93sc.Foundation.Configuraton\93sc.Foundation.Configuraton.csproj", "{D3DF57BA-025F-41AC-949C-9E4D5E441C87}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PageContent", "PageContent", "{1FC9CA98-8EED-4D37-9218-F3DD8C152CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "93sc.Feature.PageContent", "src\Feature\PageContent\code\93sc.Feature.PageContent\93sc.Feature.PageContent.csproj", "{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F338159-7DBA-4A6A-A132-6EFAF7A87A32} = {D257C9EE-284B-4412-8009-F5D3E42114F1}
+		{D3DF57BA-025F-41AC-949C-9E4D5E441C87} = {6F338159-7DBA-4A6A-A132-6EFAF7A87A32}
+		{1FC9CA98-8EED-4D37-9218-F3DD8C152CE1} = {E799D4DC-BF88-433F-A145-123FED074FF9}
+		{0EA985BF-1F86-4AF8-BB65-6143CA09EEAC} = {1FC9CA98-8EED-4D37-9218-F3DD8C152CE1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {03506991-0B63-4BCE-AD95-01F54C532627}
+	EndGlobalSection
+EndGlobal
